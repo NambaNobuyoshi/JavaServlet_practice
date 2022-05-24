@@ -21,7 +21,11 @@ JavaServlet_practice
             memo_title      varchar(50)   NOT NULL
             memo_content    varchar(MAX)
             del_flg         int           NOT NULL
- .src/mein/java/practice02/SelectAll.java　を実行
+    3-4.java/practice02/DBManager.javaを編集する
+         変数「url」　に新規作成したDB名を代入
+         変数「user」に、DB接続時のユーザーを代入
+         変数「pass」に、上記ユーザーのパスワードを代入
+ 4.java/practice02/SelectAll.java　を実行
  
  <プログラム概要>
  　メモの表示、登録、削除、編集が可能なメモアプリ
