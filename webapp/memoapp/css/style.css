@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*■■共通設定■■*/
+/*見出し*/
+h1{
+	/*背景色、文字の色、テキスト配置*/
+	background-color:blue;
+	color:white;
+	
+	text-align:left;
+	padding:10px;
+	padding-left:2%;
+	font-size:20px;	
+}
+/*送信ボタン*/
+.submit{
+	/*背景色、枠線、幅、文字の色、テキスト配置*/
+	background-color:blue;
+	border:solid 2px;
+	border-color:blue;
+	border-radius:5px;
+	
+	width:150px;
+	height:30px;
+	text-align:center;
+	color:white;
+	
+	margin-right:30pX;
+}
+/*送信ボタンを横並びにする*/
+.flexButton{
+	display:flex;
+	height:30px;
+	width:90%;
+	margin-left:2%;
+}
+
+/*■■一覧画面用■■*/
+#listBlock{
+	border:solid 2px;
+	border-radius:5px;
+	
+	margin:10px;
+	width:85%;
+	margin-left:5%;
+	
+	padding:10px
+}
+/*一覧画面内の送信ボタン*/
+.submitInList{
+	/*背景色、枠線、幅、文字の色、テキスト配置*/
+	background-color:blue;
+	border:solid 2px;
+	border-color:blue;
+	border-radius:5px;
+	
+	width:15%;
+	height:30px;
+	text-align:center;
+	color:white;
+}
+.rightBlock{
+	text-align:right;
+	padding-right:10px;
+}
+.leftMargin{
+	margin-left:2%;
+}
+/*■■詳細画面用■■*/
+.flexBlock{
+	display:flex;
+	width:80%;
+	margin-left:2%;
+}
+.width20{
+	width:20%;
+	margin-bottom: 50px;
+}
+/*■■登録、編集画面用■■*/
+.textInput{
+	border:solid 2px;
+	width:80%;
+	padding:10px;
+	margin-left:2%;
+}
