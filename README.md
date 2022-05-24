@@ -1,6 +1,9 @@
 # JavaServlet_practice
 JavaServlet_practice
 　作成者：NambaNobuyoshi　作成日：2022/05/24
+  <プログラム概要>
+ 　メモの表示、登録、削除、編集が可能なメモアプリ
+ 
  <実行方法>
  1.エクリプスで動的Webプロジェクトを作成
  　　1-1.プロジェクトエクスプローラーで右クリック
@@ -27,5 +30,3 @@ JavaServlet_practice
          変数「pass」に、上記ユーザーのパスワードを代入
  4.java/practice02/SelectAll.java　を実行
  
- <プログラム概要>
- 　メモの表示、登録、削除、編集が可能なメモアプリ
